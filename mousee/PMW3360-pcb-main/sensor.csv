@@ -1,0 +1,9 @@
+Comment,Designator,Footprint,LCSC
+"1uF","C1,C2","local:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder",""
+"0.1uF","C3","local:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder",""
+"4.7uF","C4","local:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder",""
+"Conn_01x06_Female","J1","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",""
+"10k","R1,R2,R3","local:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder",""
+"TLV70019_SOT23-5","U2","local:SOT-23-5_HandSoldering",""
+"TXB0106PWR","U3","local:TSSOP-16_4.4x5mm_P0.65mm",""
+"PMW3360DM-T2QU","U4","local:DIP-16_W10.16mm",""
