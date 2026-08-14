@@ -77,7 +77,8 @@ The Radxa X4 cyberdeck project is currently in the design stage.
 | PCB | 1 | [JLCPCB Link](https://cart.jlcpcb.com/quote) | 44.00 |
 ## Images:
 
-
+<img width="845" height="689" alt="Screenshot 2026-08-09 134827" src="https://github.com/user-attachments/assets/f1f6f3d5-0553-4225-a1b4-e288111a76a7" /><img width="731" height="656" alt="Screenshot 2026-08-09 163537" src="https://github.com/user-attachments/assets/fae8f205-5589-404e-b866-5e631d702d0d" />
+<img width="360" height="396" alt="Screenshot 2026-08-11 180309" src="https://github.com/user-attachments/assets/ccb64242-fa0c-4cad-9366-1ba1e62bfc21" />
 <img width="1072" height="743" alt="Screenshot 2026-07-25 012635" src="https://github.com/user-attachments/assets/c84bded2-c1dc-4723-af62-4393990d22b7" />
 <img width="569" height="544" alt="Screenshot 2026-07-26 022314" src="https://github.com/user-attachments/assets/fa600441-92cb-40ad-903a-456ce3f47fdd" />
 <img width="743" height="472" alt="Screenshot 2026-07-26 023957" src="https://github.com/user-attachments/assets/628c5bc8-b71a-4abe-a1c8-908c02ec114b" />
