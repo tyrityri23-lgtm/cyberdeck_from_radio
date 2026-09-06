@@ -1,62 +1,26 @@
-## DIY Wireless Mouse:
+## DIY Mouse:
+so this is the mouse for the cyberdeck radio i did a different readme so its more clean and tighty. So this uses a laser for all the movement and an esp32 so again i dont put alot of load on the sbc cause it will be running the os. Moreover it uses 4 buttons 2 for the left and right and 2 side buttons with custom micros. Also a rotary encoder for scroling and i made it as small as possible at 4cm*4cm
 
-I am building a custom wireless optical mouse. The project is not finished yet. I have completed the computer aided design work, printed circuit board design and overall hardware layout. Now I need to order the parts, 3D print the shell and start putting everything together.
-
-The main controller is a Seeed Studio XIAO ESP32-C3. I chose the XIAO ESP32-C3 because it is a compact microcontroller that supports native Bluetooth Low Energy HID functionality. I used 3D CAD software to design the ergonomic mouse enclosure. I imported a model of my custom printed circuit board into the assembly to make sure everything fits correctly before manufacturing the custom printed circuit board.
 
 ## Hardware:
 
-* Seeed Studio XIAO ESP32-C3 microcontroller
+* Seeed Studio XIAO ESP32-C3 
 
-* PixArt PMW3360DM-T2QU high-end optical sensor
+* PixArt PMW3360DM-T2QU sensor
 
-* Custom mouse printed circuit board designed in KiCad
+* My mouse pcb
 
-* AP2112K voltage regulator for the PMW3360 power rail
+* AP2112K voltage regulator
 
-* SPI interface connection between MCU and optical sensor
-
-* Custom switch matrix using tactile button click switches and rotary encoder input
-
-* MCP23017 I/O expander for input line expansion
-
-* Battery-powered design for wireless Bluetooth operation
+* MCP23017 I/O 
 
 ## PCB & Sensor Routing:
+So to make this fully custom i designed the pcb myself it took me a while but not as long as the keyboard cause i alredy knew the basics. The best part is that i could make it any shape i wanted so i put the rotary encoder on the side cause it looks really cool 
 
-I did not use an off-the-shelf mouse motherboard. Instead I designed my printed circuit board in KiCad with a custom footprint layout for the switches and sensor. The optical sensor is controlled by the ESP32-C3 over an SPI bus. The PMW3360 requires a 1.8V power rail for its internal logic, so I routed an AP2112K low-dropout regulator on the board to safely step down the supply voltage. I also included test pads on the printed circuit board so I can easily flash and debug firmware during assembly.
-
-## Planned Features:
-
-Some features are works in progress for the custom wireless mouse. The features are:
-
-* Battery charging and power management for the ESP32-C3 wireless mouse
-
-* Dynamic CPI/DPI sensitivity switching stored in sensor registers
-
-* Direct Bluetooth Low Energy HID pairing without needing a USB receiver dongle
-
-* Low-power sleep modes to conserve battery life during inactivity
-
-* Final firmware integration for matrix scanning and optical tracking
 
 ## Current Status:
 
-The DIY wireless mouse project is currently in the design stage.
-
-* I have completed the 3D CAD shell model
-
-* I have designed the printed circuit board in KiCad
-
-* I have checked the component fit using a 3D assembly
-
-* I have generated and uploaded the design files
-
-* I still need to order the parts and PCBs for the custom mouse
-
-* I have not started the physical assembly of the wireless mouse
-
-* The firmware code and BLE power management are still being developed
+i finished everything even the case and the code all that is left now is to get everything shipped and assembled 
 
 ## BMO:
 
