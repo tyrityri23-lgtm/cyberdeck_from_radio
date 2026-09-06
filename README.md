@@ -1,59 +1,34 @@
  ## Cyberdeck:
-
-I am building a cyberdeck inside a radio chassis. The project is not finished yet. I have completed the computer aided design work, printed circuit board design and overall hardware layout. Now I need to order the parts print the case and start putting everything
-
-The main computer is a Radxa X4. I chose the Radxa X4 because it is a single-board computer that can run PC operating systems and applications. I used FreeCAD to design the enclosure. I imported a model of my custom printed circuit board into the assembly to make sure everything fits correctly before manufacturing the custom printed circuit board.
+ So im building a cyberdeck. I got the idea from a tt trend that i saw. So i have this old radio and i decided to turn that into that cyberdeck. It has a custom mouse and a keyboard which i designed over the last month. This readme shows how to make it with the radxa x4 but u can use any sbc u want. I am making a version with the GIGAIPC QBiP-N97A. But this requires a stick of ram and for storage im using a bootable usb to save money but u can use an ssd if u want. 
 
 ## Hardware:
 
 * Radxa X4 single-board computer
 
-* Custom keyboard printed circuit board
+* Custom keyboard 
 
 * ESP32-C3 keyboard controller
 
-* MCP23017 I/O expander for the keyboard matrix
+* MCP23017 I/O for the keyboard matrix
 
-* gyroscope for future motion-based features
+* gyroscope for motion-based features
 
-* Internal display mounted in a vintage radio enclosure
+* Internal display mounted on the radio dvd player
 
-* Battery-powered design but the power management is still in development
+* Battery-powered design using a powerbank
 
 ## Keyboard:
 
-I did not use an off-the-shelf keyboard. Instead I designed my printed circuit board with a custom key matrix. The keyboard is controlled by an ESP32-C3 with an MCP23017 I/O expander. I also included spare connections on the printed circuit board so I can add extra hardware later without redesigning the printed circuit board.
+So for the keyboard i used an esp32 that will know all the keyboard clicks so i dont put alot of load on the sbc cause it will be running the os so it is already doing alot.
 
 ## Planned Features:
 
-Some features are works in progress including the Radxa X4 cyberdeck. The features are:
-
-* Battery charging and power management for the Radxa X4 cyberdeck
-
-* Motion-based -theft alarm using the onboard gyroscope of the Radxa X4 cyberdeck
-
-* Software integration between the hardware and the Radxa X4 cyberdeck
-
-* Final firmware for the keyboard controller of the Radxa X4 cyberdeck
+so in the short future i might make a custom os for this so it can look like a radio but when u put a password it loads everything like apps and the internet so it looks like a radio when an unsuspecting person opens it. 
+Also i will need to program for the gyroscope to work properly so that is next on the list.  
 
 ## Current Status:
 
-The Radxa X4 cyberdeck project is currently in the design stage.
-
-* I have completed the computer aided design model
-
-* I have designed the printed circuit board
-
-* I have checked the component fit using a 3D assembly
-
-* I have uploaded the design files
-
-* I still need to order the parts, for the Radxa X4 cyberdeck
- I have not started the assembly of the Radxa X4 cyberdeck
-
-* The software and power management of the Radxa X4 cyberdeck are still being developed
-
-
+getting everything shipped and assembled 
 ## BMO: 
 
 | Item | Quantity | Source / Designer Link | Price (€/$) |
